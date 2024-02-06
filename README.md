@@ -9,7 +9,7 @@ This section describes the code that was run and the corresponding output:
 First graph:
 
 ```
-python3 ./src/visualize.py --input_path=reduced.lang --key='#coronavirus'
+$python3 ./src/visualize.py --input_path=reduced.lang --key='#coronavirus'
 ```
 
 This code outputs the graph below. As we can see, #coronavirus was used in English the most, followed by Spanish.
@@ -50,12 +50,12 @@ This code outputs the graph below:
 Fifth graph:
 
 ```
-$ python3 ./src/alternative_reduce.py --keys '#hospital' '#doctor'
+$ python3 ./src/alternative_reduce.py --keys '#coronavirus' '#covid-19'
 ```
 
 This code outputs the graph below:
 
-![#hospital and #doctor throughout 2020](hospital_doctor.png)
+![#covid-19 and #coronavirus throughout 2020](coronavirus_covid-19.png)
 
 
 
